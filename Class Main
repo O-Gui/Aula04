@@ -1,0 +1,22 @@
+package Main;
+
+import br.com.veiculos.Carro;
+import br.com.veiculos.Moto;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Carro objcarro = new Carro("tesla", "cyber truck","prata",5,4);
+   objcarro.acelerar();
+   objcarro.freiar();
+   objcarro.capota();
+
+        System.out.println("==============================");
+
+        Moto objmoto = new Moto("BMW","B1000", "pretona","aço", "V");
+        objmoto.acelerar();
+        objmoto.freiar();
+        objmoto.cai();
+    }
+
+}
