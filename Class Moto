@@ -1,0 +1,21 @@
+package br.com.veiculos;
+
+public class Moto extends Veiculos {
+
+    private String MaterialDoPeDeDescanso;
+    private String ModeloGuidao;
+
+
+    public void cai() {
+
+        System.out.println("este veiculo esta caindo radicalmente");
+
+    }
+
+    public Moto(String marca, String moedelo, String cor, String materialDoPeDeDescanso, String modeloGuidao) {
+        super(marca, moedelo, cor);
+        MaterialDoPeDeDescanso = materialDoPeDeDescanso;
+        ModeloGuidao = modeloGuidao;
+    }
+}
+
