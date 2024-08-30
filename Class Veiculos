@@ -1,0 +1,32 @@
+//pacote
+package br.com.veiculos;
+
+//atributos
+public class Veiculos {
+
+    private String marca;
+    private String moedelo;
+    private String cor;
+
+    //metodos
+    public void acelerar() {
+
+
+        System.out.println(moedelo + " acelerando");
+
+    }
+
+    public void freiar() {
+
+
+        System.out.println(moedelo + " freiando");
+
+    }
+
+    //construtor
+    public Veiculos(String marca, String moedelo, String cor) {
+        this.marca = marca;
+        this.moedelo = moedelo;
+        this.cor = cor;
+    }
+}
