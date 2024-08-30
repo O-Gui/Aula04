@@ -1,0 +1,21 @@
+package br.com.veiculos;
+
+public class Carro extends Veiculos {
+
+    private int TamanhoPortaLuvas;
+    private int QTDtapete;
+
+
+    public void capota() {
+
+        System.out.println("este veiculo esta capotando radicalmente");
+
+    }
+
+    public Carro(String marca, String moedelo, String cor, int tamanhoPortaLuvas, int QTDtapete) {
+        super(marca, moedelo, cor);
+        TamanhoPortaLuvas = tamanhoPortaLuvas;
+        this.QTDtapete = QTDtapete;
+    }
+}
+
